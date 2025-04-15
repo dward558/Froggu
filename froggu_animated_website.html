@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froggu - The Cutest Frog on the Blockchain</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Fredoka', sans-serif;
+            background: #f9f9f9;
+            color: #222;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: #c2fbd7;
+            animation: slideDown 1s ease-out;
+        }
+        header img {
+            width: 120px;
+            animation: popIn 1s ease-out;
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin: 0.2em 0;
+            color: #2e7d32;
+        }
+        header p {
+            font-size: 1.5em;
+            color: #388e3c;
+        }
+        .btn {
+            background-color: #ffd54f;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #333;
+            transition: 0.3s ease;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #ffca28;
+            transform: scale(1.05);
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #2e7d32;
+            animation: fadeIn 1.2s ease-in;
+        }
+        .tokenomics, .how-to-buy, .roadmap {
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            animation: fadeInUp 1s ease-in-out;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #a5d6a7;
+            font-size: 1.2em;
+            color: #2e7d32;
+        }
+        a {
+            color: #00796b;
+            text-decoration: none;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes popIn {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="froggu_logo.png" alt="Froggu Logo">
+        <h1>FROGGU</h1>
+        <p>The Cutest Frog on the Blockchain!</p>
+        <a href="#" class="btn">Buy Froggu</a>
+    </header>
+
+    <section>
+        <div class="section-title">About Froggu</div>
+        <p>Froggu is not just a coin, it’s a vibe. With sparkling eyes and meme-worthy hops, Froggu is here to leap into your heart and wallet. Our goal? Build the most wholesome, fun, and meme-powered community in the crypto pond.</p>
+    </section>
+
+    <section>
+        <div class="section-title">Tokenomics</div>
+        <div class="tokenomics">
+            <ul>
+                <li>Total Supply: 1,000,000,000 $FROGGU</li>
+                <li>50% Liquidity</li>
+                <li>25% Community Rewards</li>
+                <li>15% Marketing & Dev</li>
+                <li>10% Burned</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-title">How to Buy</div>
+        <div class="how-to-buy">
+            <ol>
+                <li>Download MetaMask and add it to your browser.</li>
+                <li>Fund it with ETH (Ethereum).</li>
+                <li>Go to Uniswap and connect your wallet.</li>
+                <li>Paste the Froggu contract address and swap for $FROGGU.</li>
+                <li>Join the community and start hopping!</li>
+            </ol>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-title">Roadmap</div>
+        <div class="roadmap">
+            <h3>Phase 1: Launch</h3>
+            <ul>
+                <li>Token launch</li>
+                <li>Website + Socials</li>
+                <li>1,000 Holders</li>
+            </ul>
+            <h3>Phase 2: Hop Mode</h3>
+            <ul>
+                <li>Partnerships</li>
+                <li>Listings on major aggregators</li>
+                <li>Meme contests</li>
+            </ul>
+            <h3>Phase 3: Moon Leap</h3>
+            <ul>
+                <li>Froggu NFTs</li>
+                <li>Froggu DAO</li>
+                <li>Major Exchange Listings</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        Join the pond: <a href="#">Twitter</a> | <a href="#">Telegram</a> | <a href="#">Discord</a><br>
+        © 2025 Froggu Coin. All rights reserved.
+    </footer>
+</body>
+</html>
